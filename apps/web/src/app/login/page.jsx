@@ -26,13 +26,7 @@ export default function PaginaLogin() {
     <div className="min-h-screen flex">
       {/* Panel izquierdo — foto */}
       <div className="hidden lg:block lg:w-1/2 relative overflow-hidden">
-        <Image
-          width={400}
-          height={400}
-          src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&auto=format&fit=crop&q=80"
-          alt="Ambiente Flex"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+      
         <div className="absolute inset-0 bg-linear-to-r from-zinc-950/60 to-zinc-950/10" />
         <div className="absolute bottom-12 left-10 right-10">
           <p className="text-white/80 text-xl font-light italic leading-relaxed">

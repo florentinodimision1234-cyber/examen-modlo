@@ -8,7 +8,6 @@ import Image from 'next/image'
 
 const NAV_CLIENTE = [
   { icon: ShoppingCart, label: 'Pedir', href: '/' },
-  { icon: Crown, label: 'Salas VIP', href: '/vip' },
   { icon: User, label: 'Mi área', href: '/mi-area' },
 ]
 

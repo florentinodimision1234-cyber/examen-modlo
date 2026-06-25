@@ -27,7 +27,7 @@ export default async function PaginaExitoPedido({ searchParams }) {
         {pedido.mesas && <p>Mesa {pedido.mesas.numero} · Piso {pedido.mesas.piso}</p>}
         <p className="text-gold-400 font-bold text-xl">{pedido.total} € pagados</p>
       </div>
-      <p className="text-zinc-500 text-sm">Tu pedido ya está en cocina. Llega en 10–15 min.</p>
+      <p className="text-zinc-500 text-sm">Tu pedido a sido</p>
       <Link href="/" className="px-6 py-2.5 bg-gold-500 hover:bg-gold-600 text-zinc-950 font-bold rounded-xl text-sm">
         Volver a la carta
       </Link>

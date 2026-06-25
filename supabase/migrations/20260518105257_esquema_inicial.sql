@@ -90,9 +90,9 @@ create table public.salas_vip (
 );
 
 insert into public.salas_vip (nombre, descripcion, capacidad, precio_hora) values
-  ('Sala Roja',  'Ambiente íntimo con equipo de sonido Marshall',  8, 80.00),
-  ('Sala Negra', 'Escenario propio + luces de discoteca',          15, 120.00),
-  ('Sala Gold',  'Suite VIP con servicio de botella incluido',     6,  150.00);
+  ('Sala mediana',  'Ambiente íntimo con equipo de sonido y escpacios estrechos',  8, 80.00),
+  ('Sala Negra', 'Escenario apocaliptico + luces de neon',          15, 120.00),
+  ('Sala Gold',  'zona amplia con otros participantes aleatorios',     6,  150.00);
 
   create table public.reservas (
   id              bigserial primary key,
@@ -142,6 +142,6 @@ $$;
 
 insert into storage.buckets (id, name, public)
 values
-  ('productos', 'productos', true),
+  ('salas', 'salas', true),
   ('avatares',  'avatares',  true)
 on conflict (id) do nothing;
